@@ -1,0 +1,219 @@
+.about-container {
+  background: $background-color;
+  .about {
+    .about-title {
+      position: absolute;
+      width: 1127px;
+      height: 62px;
+      left: 119px;
+      top: 546px;
+      color: $secondary-color;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 130%;
+    }
+    .about-content1 {
+      left: 599px;
+      top: 546px;
+      position: absolute;
+      width: 648px;
+      height: 120px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #656261;
+      align-self: stretch;
+    }
+    .about-content2 {
+      left: 599px;
+      top: 680px;
+      position: absolute;
+      width: 648px;
+      height: 120px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #656261;
+      align-self: stretch;
+    }
+  }
+  .about-banner {
+    background: url('/dist/img/unsplash_PhYq704ffdA.png'), #c4c4c4;
+    position: absolute;
+    width: 1129px;
+    height: 383px;
+    left: 119px;
+    top: 770px;
+  }
+  .values-container {
+    background: $background-color;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 118px;
+    gap: 32px;
+    position: absolute;
+    width: 1127px;
+    height: 521px;
+    left: 0px;
+    top: 1249px;
+
+    .values {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      gap: 16px;
+      width: 1128px;
+      height: 126px;
+      .values-title {
+        width: 1129px;
+        height: 62px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 130%;
+        text-align: center;
+        color: $secondary-color;
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+      }
+
+      .values-sub {
+        width: 1129px;
+        height: 48px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        text-align: center;
+        color: #656261;
+      }
+    }
+    .values-items {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 24px;
+      width: 1128px;
+      height: 235px;
+
+      .values-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 24px;
+        gap: 16px;
+        width: 360px;
+        height: 235px;
+
+        .value-item {
+          padding: 16px;
+          border-radius: 50%;
+        }
+        .item1 {
+          background: #fae2d1;
+          box-shadow: 0 0 0 15px$background-color, 0 0 0 16px #fae2d1;
+        }
+        .item2 {
+          background: #cce3ea;
+          box-shadow: 0 0 0 15px$background-color, 0 0 0 16px #cce3ea;
+        }
+
+        .item3 {
+          background: #fee2e2;
+          box-shadow: 0 0 0 15px$background-color, 0 0 0 16px #fee2e2;
+        }
+        .value-title {
+          width: 312px;
+          height: 21px;
+          text-align: center;
+          margin-top: 16px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 130%;
+          color: #3f3b3a;
+        }
+        .value-sub {
+          width: 312px;
+          height: 42px;
+          text-align: center;
+          margin-top: 16px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 150%;
+          color: #686868;
+        }
+      }
+    }
+  }
+  .mission-container {
+    background: $background-color;
+    position: absolute;
+    width: 1364px;
+    height: 521px;
+    top: 1902px;
+    left: 0;
+    .mission-image {
+      position: absolute;
+      width: 456px;
+      height: 288px;
+      left: 119px;
+      background: url('/dist/img/unsplash_eVhVt7YcMfM.png'), #c4c4c4;
+    }
+    .mission-title {
+      position: absolute;
+      color: $secondary-color;
+      left: 751px;
+      width: 576px;
+      height: 62px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 130%;
+    }
+    .mission-sub {
+      position: relative;
+      margin-top: 16px;
+      left: 751px;
+      top: 48px;
+      width: 576px;
+      height: 48px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #656261;
+    }
+    .mission-list {
+      position: relative;
+      left: 751px;
+      top: 77px;
+      width: 549.69px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 150%;
+      color: #656261;
+      ul {
+        list-style: url('/dist/img/bullet.png');
+
+        li {
+          margin-bottom: 16px;
+          margin-left: 16px;
+        }
+      }
+    }
+  }
+}

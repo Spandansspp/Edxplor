@@ -1,0 +1,14 @@
+$primary-color: #007296;
+$secondary-color: #0d485d;
+$highlight-color: #e66e19;
+$tertiary-color: #005671;
+$background-color: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Poppins' !important;
+  background-color: $background-color;
+}
