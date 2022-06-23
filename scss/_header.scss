@@ -72,27 +72,3 @@
     }
   }
 }
-header .banner {
-  color: $background-color;
-  top: 160px;
-  width: 1365px;
-  height: 320px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('/dist/img/unsplash_yFbyvpEGHFQ.jpg'), #c4c4c4;
-  background-repeat: no-repeat;
-
-  .banner-title {
-    text-align: center;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    padding-top: 129px;
-    padding-bottom: 16px;
-  }
-  .banner-sub {
-    text-align: center;
-    font-style: normal;
-    font-size: 14px;
-    font-weight: 400;
-  }
-}
